@@ -1,0 +1,55 @@
+name: orthoappflutter
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  http: ^0.13.3
+  flutter_file_downloader: any
+  connectivity_plus: ^2.3.6
+  percent_indicator: ^4.2.3
+  skeletonizer: ^1.0.1
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_dotenv: any
+  video_player: ^2.3.2
+  chewie: any
+  responsive_sizer: ^3.2.0
+  device_preview: ^1.1.0
+  country_picker: ^2.0.21
+  intl: ^0.18.0
+  flutter_keyboard_visibility: ^6.0.0
+  fluttertoast: ^8.0.8
+  oktoast: ^3.4.0
+  toast: ^0.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Fresca
+      fonts:
+        - asset: assets/fonts/FrescaRegular.ttf
+          weight: 400
